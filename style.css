@@ -1,0 +1,33 @@
+
+
+
+a :hover{
+    background-color: gold;
+    color:purple; 
+}
+header{
+    background-color: brown;
+}
+p.warning::before{
+    content: url(C:\Users\petros\Downloads\124479.jpg);
+    margin-right: 6px;
+}
+p.warning::after{
+    content: "THANK YOU.";
+    color: red;
+}
+body{
+    background-image: url("C:\Users\petros\Downloads\images\ice.jpg");
+}
+.unique{
+    display: grid;
+    grid-auto-flow: row;
+    grid-template: inherit;
+    color: darkmagenta;
+    grid-area: span;
+    grid-template-rows: max-content;
+    float: right;
+    border-style: solid;
+    grid-row-start: span;
+}
+
